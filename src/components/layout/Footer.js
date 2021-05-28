@@ -28,6 +28,9 @@ function Footer(props) {
                     <Link to="/profile">Profile</Link>
                 </li>
 
+                <li className="listItem">
+                    <Link to="/Four0Four">Test error</Link>
+                </li>
                 <li className="listItem" onClick={() => scroll.scrollToTop()}>
                     <img src={logo3} alt="img" />
                 </li>

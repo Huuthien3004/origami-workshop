@@ -18,7 +18,7 @@ function Navbar() {
                 </li>
 
                 <li className="listItem">
-                    <Link to="/comment">Comment</Link>
+                    <Link to="/comment">Comments</Link>
                 </li>
 
                 <li className="listItem">
@@ -33,6 +33,9 @@ function Navbar() {
                     <Link to="/profile">Profile</Link>
                 </li>
 
+                <li className="listItem">
+                    <Link to="/Four0Four">Test error</Link>
+                </li>
             </ul>
         </nav>
     );
