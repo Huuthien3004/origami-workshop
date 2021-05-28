@@ -15,7 +15,7 @@ function Register() {
                     <input type="Password" />
                 </div>
                 <div className="form-control">
-                    <label>Re-Password</label>
+                    <label>Re-enter Password</label>
                     <input type="Password" />
                 </div>
                 <div className="form-control">
