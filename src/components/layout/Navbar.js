@@ -18,7 +18,7 @@ function Navbar() {
                 </li>
 
                 <li className="listItem">
-                    <Link to="/comment">Comments</Link>
+                    <Link to="/comment">Comment</Link>
                 </li>
 
                 <li className="listItem">

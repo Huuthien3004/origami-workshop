@@ -13,7 +13,7 @@ function Footer(props) {
                 </li>
 
                 <li className="listItem">
-                    <Link to="/Comment">Comments</Link>
+                    <Link to="/Comment">Comment</Link>
                 </li>
 
                 <li className="listItem">

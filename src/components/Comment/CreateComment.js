@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CreateThoughtsForm(props) {
+function CreateComment(props) {
     return (
         <div>
             <h1>Share your thoughts...</h1>
@@ -10,4 +10,4 @@ function CreateThoughtsForm(props) {
     );
 }
 
-export default CreateThoughtsForm;
+export default CreateComment;

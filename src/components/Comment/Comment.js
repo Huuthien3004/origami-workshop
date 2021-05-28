@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import CreateThoughtsForm from './CreateComment';
+import CreateComment from './CreateComment';
 import LatestPost from './LatestPost';
 import axios from "axios";
 
-function Thoughts(props) {
+function Comment(props) {
     const [latestPostList, setLatestPostList] = useState([])
     useEffect(() => {
         async function getLatestPost() {
             try {
-                const response = await axios.get('http://localhost:9999/api/origami/all?limit=3')
+                const response = await axios.get('http://localhost:9999/api/origami/all')
                 const { data } = response
 
                 setLatestPostList(data)
             } catch (error) {
-                console.log('Fail: ', error.message);
+                console.log('Fail to get: ', error.message);
             }
         }
         getLatestPost()
@@ -21,7 +21,7 @@ function Thoughts(props) {
 
     return (
         <div className='Input'>
-            <CreateThoughtsForm />
+            <CreateComment />
 
             <div>
                 <h2>Last 3 post on your wall</h2>
@@ -32,4 +32,4 @@ function Thoughts(props) {
     );
 }
 
-export default Thoughts;
+export default Comment;

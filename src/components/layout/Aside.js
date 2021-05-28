@@ -11,7 +11,7 @@ function Aside() {
                 </li>
 
                 <li className="listItem">
-                    <Link to="/Comments">Comments</Link>
+                    <Link to="/Comment">Comment</Link>
                 </li>
 
                 <li className="listItem">
