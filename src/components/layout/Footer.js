@@ -1,5 +1,5 @@
 import React from 'react';
-import logo3 from '../../img/logo3.png';
+import logo3 from '../../img/blue-origami-bird-flipped.png';
 import { animateScroll as scroll } from 'react-scroll'
 import { Link } from 'react-router-dom';
 

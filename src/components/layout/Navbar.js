@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../img/logo1.png'
+import logo from '../../img/white-origami-bird.png'
 import { animateScroll as scroll } from 'react-scroll'
 import { Link } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="Navigation" >
             <ul>
                 <li className="listItem" onClick={() => scroll.scrollToTop()}>
-                    <img src={logo} alt="img" style={{ width: '80.5%' }} />
+                    <img src={logo} alt="img" style={{ width: '90%' }} />
                 </li>
 
                 <li className="listItem">
